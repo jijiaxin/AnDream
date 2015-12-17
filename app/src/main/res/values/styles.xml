@@ -1,0 +1,32 @@
+<resources>
+
+<!--    <style name="AppTheme.WithoutActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    &lt;!&ndash; Base application theme. &ndash;&gt;
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1565C0</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>-->
+
+<style name="Widget.AnDream.ProgressBar" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+
+    <item name="android:minHeight">4dp</item>
+    <item name="android:maxHeight">4dp</item>
+</style>
+
+<style name="Widget.AnDream.RatingBar" parent="android:Widget.Holo.Light.RatingBar">
+ <!--   <item name="android:progressDrawable">@drawable/philmcolor_ratingbar_full_holo_light</item>
+    <item name="android:indeterminateDrawable">@drawable/philmcolor_ratingbar_full_holo_light
+    </item>-->
+</style>
+
+    <style name="ToolBarColorStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1565C0</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>
+</resources>
